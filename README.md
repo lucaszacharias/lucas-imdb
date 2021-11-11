@@ -1,78 +1,76 @@
-# Getting Started with Create React App
+<h1 align="center">
+      Lucas IMDB 
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+      Aplicativo que serve como uma lista de milhares de filmes suas notas e sinopses.
+</h3>
 
-## Available Scripts
+<p align="center">
+  
+  <a href="https://github.com/lucaszacharias/lucas-imdb/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/badge/last%20commit-2021-red">
+  </a>
 
-In the project directory, you can run:
+  <a href="https://github.com/lucaszacharias">
+    <img alt="Feito por Lucas Zacharias" src="https://img.shields.io/badge/feito%20por-Lucas%20Zacharias-brightgreen">
+  </a>
+ 
+</p>
 
-### `yarn start`
+<h4 align="center">
+	🚧  Concluído  🚧
+</h4>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Tabela de conteúdos
+=================
+<!--ts-->
+   * [Sobre o projeto]
+   * [Funcionalidades]
+   * [Como executar o projeto]
+   * [Tecnologias]
+   * [Autor]
+<!--te-->
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 💻 Sobre o projeto
 
-### `yarn test`
+Neste projeto desenvolvi um aplicativo que serve como uma lista de milhares de filmes com suas respectivas notas e sinopses.
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Funcionalidades
 
-### `yarn build`
+- [x] Demonstração de API de filmes e suas informações
+- [x] Busca por filmes 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Como executar o projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para acessar o projeto basta acessar o link abaixo:
 
-### `yarn eject`
+```
+https://lucas-imdb.herokuapp.com/
+```
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🛠 Tecnologias e Bibliotecas 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+As seguintes tecnologias e bibliotecas foram usadas na construção do projeto:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-   **[Javascript](https://www.javascript.com/)**
+-   **[React.js]()**
+-   **[CSS]()**
+-   **[HTML]()**
+---
 
 
+## 🦸 Autor
 
-featured "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=04c35731a5ee918f014970082a0088b1&page=1"
+<a href="https://github.com/lucaszacharias">
+ <img style="border-radius: 50%;" src="https://imgur.com/a/nG1Xopu" width="100px;" alt=""/>
+ <br />
+ <sub><b>Lucas Zacharias</b></sub></a> <a href="https://github.com/lucaszacharias" title="Lucas Zacharias"></a>
+ <br />
 
-images: "https://image.tmdb.org/t/p/w1280"
-
-search:"https://api.themoviedb.org/3/search/movie?&api_key=04c35731a5ee918f014970082a0088b1&query="
+![GitHub followers](https://img.shields.io/github/followers/lucaszacharias?style=social) 
+---
