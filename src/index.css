@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swat");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #8600C4;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  gap: 68%;
+  justify-content: flex-end;
+  background-color: #BB25F2;
+  padding:1rem;
+}
+
+@media (max-width: 1407px) {
+  header {
+    gap: 59%;
+  }
+}
+
+@media (max-width: 1136px) {
+  header {
+    gap: 50%;
+  }
+}
+
+
+@media (max-width: 865px) {
+  header {
+    gap:35%;
+  }
+}
+
+
+
+.root {
+  flex-direction: column;
+  display: flex;
+}
+
+.search {
+  font-family: inherit;
+  font-size:1rem;
+  color: white !important;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+}
+
+.search:focus {
+  outline:0;
+}
+
+.logo {
+  float: left;
+  left:0;
+  width: 120px;
+}
+
+.movie {
+  width: 16rem;
+  margin: 0.5rem;
+  position:relative;
+  background-color: #BB25F2;
+  border-radius: 3px;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.movie img{
+  max-width: 100%;
+}
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.5rem;
+  justify-content: center;
+}
+
+.movie-info {
+  display: flex;
+  padding: 1em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movie-info h3 {
+  margin: 0;
+}
+
+.movie-over{
+  position: absolute;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #414141;
+  padding: 0.9rem;
+  font-size: 0.9rem;
+  transform: translateY(102%);
+  transition: transform 0.3s ease-in-out;
+  max-height: 100%;
+  overflow: auto;
+}
+
+.movie:hover .movie-over {
+  transform: translateY(0);
+}
+
+.tag {
+  background-color: #8600C4;
+  padding: 0.5rem;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.tag.green {
+  background-color: green; 
+}
+.tag.red {
+  background-color: red; 
+}
+.tag.orange {
+  background-color: orange; 
+}
