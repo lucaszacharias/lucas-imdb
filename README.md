@@ -1,3 +1,5 @@
+![lucas_imdb](https://github.com/lucaszacharias/lucas-imdb/blob/main/src/img/lucas-imdb-thumbnail.png)
+
 <h1 align="center">
       Lucas IMDB 
 </h1>
